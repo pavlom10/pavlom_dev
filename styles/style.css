@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}
+
+a {
+  color: #007aff;  
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+body {
+  font-size: 24px;
+  color: rgb(18, 18, 18);
+  text-transform: lowercase;
+}
+
+.container {
+  max-width: 576px;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.header {
+  padding-top: 1rem;
+}
+
+.header__name {
+  font-size: inherit;
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+}
+
+.main {
+  padding-top: 6rem;
+}
+
+.main__title {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-bottom: .5em;
+}
+
+.main__text {
+  color: rgb(75, 85, 99);
+  margin-bottom: 1em;
+}
+
+.main__links {
+  list-style-type: "⏤";
+  padding: 0;
+  margin: 0;
+  padding-inline-start: 1.625em;
+}
+
+.main__links li {
+  padding-inline-start: .375em;
+}
+
