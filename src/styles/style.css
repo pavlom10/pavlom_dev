@@ -27,7 +27,7 @@ button:focus {
 
 body {
   font-size: 24px;
-  color: rgb(18, 18, 18);
+  color: #121212;
   text-transform: lowercase;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .main__text {
-  color: rgb(75, 85, 99);
+  color: #4b5563;
   margin-bottom: 1em;
 }
 
