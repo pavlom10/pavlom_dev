@@ -19,4 +19,4 @@ jobs:
         username: ${{ secrets.SWEB_FTP_USERNAME }}
         password: ${{ secrets.SWEB_FTP_PASSWORD }}
         local-dir: ./src/
-        server-dir: /home/t/topbankiru/pavlom_dev/public_html/
+        server-dir: /public_html/
